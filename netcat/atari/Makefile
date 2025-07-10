@@ -27,11 +27,11 @@ CONFIG  :=
  
 # Additional C compiler flags and options.
 # Default: none
-CFLAGS  = -Oris
+CFLAGS  = -Oris --add-source
  
 # Additional assembler flags and options.
 # Default: none
-ASFLAGS =
+ASFLAGS = --add-source
  
 # Additional linker flags and options.
 # Default: none
